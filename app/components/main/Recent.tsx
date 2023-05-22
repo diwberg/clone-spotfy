@@ -18,7 +18,7 @@ export function Recent() {
                 <CardRecent />
                 <CardRecent />
                 <CardRecent />
-                <CardRecent />
+
             </div>
 
 
