@@ -35,7 +35,10 @@ export function Library() {
       </div>
 
       <div className="flex text-zinc-300">
-        <a href="#" className="flex-1 hover:text-zinc-50 transition duration-200"><BiSearch className="hover:bg-zinc-600 transition duration-200 py-1 box-border rounded-full" size={28} /></a>
+        <div className="flex-auto cursor-default mr-1">
+        <a href="pesquisa" className="hover:text-zinc-50 transition duration-200"><BiSearch className="hover:bg-zinc-600 transition cursor-pointer duration-200 py-1 box-border rounded-full" size={28} /></a>
+        </div>
+
         <div className="">
           <a href="#" className="flex flex-1 gap-1 items-center hover:text-zinc-50 transition duration-200"><p className="self-center">Recentes</p><AiOutlineCaretDown /></a>
         </div>

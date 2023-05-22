@@ -5,7 +5,7 @@ export function List() {
     const img = "https://upload.wikimedia.org/wikipedia/pt/8/81/CAPA_CD_NOTHING_BUT_THE_BEAT.jpg"
 
     return (
-        <div className="flex flex-nowrap overflow-hidden gap-1 max-h-20">
+        <div className="flex flex-nowrap overflow-hidden gap-1 max-h-20 cursor-pointer">
             <div className="hover:bg-zinc-800 p-1 rounded-lg overflow-hidden grid grid-cols-2">
                 <Cover url={img} />
 
