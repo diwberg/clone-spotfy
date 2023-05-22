@@ -3,7 +3,7 @@ export function Button(){
 
     return (
         <div>
-            <a className="bg-zinc-800 hover:bg-zinc-700 px-2 py-1 rounded-full text-sm font-semibold" href="#" >Playlist</a>
+            <a className="bg-zinc-800 block hover:bg-zinc-700 p-2 rounded-full overflow-hidden text-sm font-semibold" href="#" >Playlist</a>
         </div>
     )
 
