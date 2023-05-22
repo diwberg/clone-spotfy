@@ -1,5 +1,6 @@
 
 import { Nav } from "./components/Nav";
+import { Main } from "./components/Main";
 export default function Home() {
   return (
   <div className="h-screen flex flex-col">
@@ -12,7 +13,11 @@ export default function Home() {
 
       </aside>
 
-      <main className="flex-1 p-6"></main>
+      <main className="flex-1 p-6">
+
+        <Main />
+        
+      </main>
     </div>
     <footer className="bg-zinc-800 border-t border-zinc-600 p-6">
       FOOTER
