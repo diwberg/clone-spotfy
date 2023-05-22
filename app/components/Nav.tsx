@@ -1,6 +1,6 @@
 import { BiSearch } from "react-icons/bi";
 import { HiHome } from "react-icons/hi";
-import { Library } from "./Library";
+import { Library } from "./nav/Library";
 
 interface NavProps{
     library?: boolean
